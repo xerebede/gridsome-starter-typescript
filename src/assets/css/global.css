@@ -1,0 +1,29 @@
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+  padding:0;
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+  color: #198764;
+}
+
+a:hover {
+  color: #000f0a;
+}
+
+p {
+  line-height: 1.8em;
+  font-size: 18px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000f0a;
+}

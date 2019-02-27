@@ -1,0 +1,24 @@
+{
+  "name": "gridsome-typescript-starter",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint:check": "wotan -p .",
+    "lint:fix": "wotan --fix -p ."
+  },
+  "dependencies": {
+    "gridsome": "^0.5.0",
+    "vue-property-decorator": "^7.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.0",
+    "ts-loader": "^5.3.0",
+    "tslint": "^5.13.0",
+    "@fimbul/wotan": "0.19.0",
+    "@fimbul/valtyr": "^0.19.0",
+    "@fimbul/ve": "^0.18.0"
+
+  }
+}
