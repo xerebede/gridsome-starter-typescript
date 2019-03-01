@@ -13,12 +13,11 @@
     "vue-property-decorator": "^7.3.0"
   },
   "devDependencies": {
+    "gridsome-plugin-typescript": "0.0.3",
     "typescript": "^3.3.0",
-    "ts-loader": "^5.3.0",
     "tslint": "^5.13.0",
     "@fimbul/wotan": "0.19.0",
     "@fimbul/valtyr": "^0.19.0",
     "@fimbul/ve": "^0.18.0"
-
   }
 }
