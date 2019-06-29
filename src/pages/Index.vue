@@ -1,8 +1,15 @@
 <template>
   <Layout>
-    <g-image class="image" alt="Gridsome" src="~/assets/favicon.png" width="135" />
+    <g-image
+      class="image"
+      alt="Gridsome"
+      src="~/assets/favicon.png"
+      width="135"
+    />
 
-    <h1 class="title">{{ title }}</h1>
+    <h1 class="title">
+      {{ title }}
+    </h1>
 
     <p>
       This is a starter template for Gridsome using Typescript.
@@ -14,10 +21,21 @@
     </p>
 
     <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+      <a
+        href="https://gridsome.org/docs"
+        target="_blank"
+        rel="noopener"
+      >
+        Gridsome Docs
+      </a>
+      <a
+        href="https://github.com/gridsome/gridsome"
+        target="_blank"
+        rel="noopener"
+      >
+        GitHub
+      </a>
     </p>
-
   </Layout>
 </template>
 

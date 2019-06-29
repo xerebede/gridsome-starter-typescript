@@ -5,20 +5,35 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "lint:check": "wotan -p .",
-    "lint:fix": "wotan --fix -p ."
+    "lint:check": "eslint --ext .ts,.vue ./src",
+    "lint:fix": "yarn lint:check --fix"
   },
   "dependencies": {
     "gridsome": "^0.6.4",
     "vue-property-decorator": "^8.2.0"
   },
   "devDependencies": {
-    "@fimbul/valtyr": "^0.21.0",
-    "@fimbul/ve": "^0.21.0",
-    "@fimbul/wotan": "^0.21.0",
+    "husky": "^2.7.0",
+    "eslint": "^5.0.0",
+    "lint-staged": "^8.2.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-promise": "^4.2.0",
+    "eslint-plugin-vue": "^5.2.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
     "gridsome-plugin-typescript": "0.4.0",
-    "tslint": "^5.18.0",
     "typescript": "^3.5.0",
     "ts-loader": "^6.0.0"
+  },
+  "lint-staged": {
+    "*.(vue|ts)": "yarn lint:check"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
