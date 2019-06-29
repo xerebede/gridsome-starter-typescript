@@ -13,10 +13,10 @@
 
     <p>
       This is a starter template for Gridsome using Typescript.
-      It uses <strong>wotan</strong> for command line code analisys
-      and <strong>tslint</strong> for integration with vscode.
-      In order to work with Visual Studio Code, you'll need to install
-      <strong>TSLint</strong> and <strong>TSLint Vue</strong>
+      It uses <strong>eslint</strong> and <strong>typescript</strong>
+      to run static code analisys in your project.
+      In order to integrate these tools with Visual Studio Code,
+      you'll need to install <strong>EsLint</strong> and <strong>Vetur</strong>
       extensions for the editor.
     </p>
 
