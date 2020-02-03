@@ -19,7 +19,7 @@ import '~/assets/css/global.css';
 import DefaultLayout from '~/layouts/Default.vue';
 
 /**
- * Client API contructor
+ * Client API constructor
  */
 const client: ClientApiConstructor = (Vue, { head }) => {
   Vue.component('Layout', DefaultLayout);
